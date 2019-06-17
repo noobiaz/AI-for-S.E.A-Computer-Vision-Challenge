@@ -23,4 +23,4 @@ We use the standard PyTorch libraries as well as supporting libraries
 The model we use is a pretrained ResNet50 model from torchvision.models library.
 
 ### Model Reproducibility
-We train the model on a single Tesla V100 GPU with a 89% accuracy on the test dataset. We implement an automated model saving that can be used later to reproduce the model performance. The instructions are included in the notebook file.
+We train the model on a single Tesla V100 GPU with a 89% accuracy on the test dataset. We implement an automated model saving that can be used later to reproduce the model performance. The instructions are included in the Stanford_Car_ResNet50.ipynb file.
