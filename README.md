@@ -2,6 +2,9 @@
 
 This repository is a submission for the Grab AI for S.E.A Computer Vision Challenge. 
 
+## Update:
+We re-run the previous submission on a kaggle kernel using a single Tesla P100 GPU and managed to improve our test set accuracy to 91% (up from 89%) in only 8 epochs (down from 10 epochs previously). The updated file is marked as [Updated] above.
+
 ## Getting Started
 
 ### Download the Data
@@ -23,4 +26,4 @@ We use the standard PyTorch libraries as well as supporting libraries
 The model we use is a pretrained ResNet50 model from torchvision.models library.
 
 ### Model Reproducibility
-We train the model on a single Tesla V100 GPU with a 89% accuracy on the test dataset. We implement an automated model saving that can be used later to reproduce the model performance. The instructions are included in the Stanford_Car_ResNet50.ipynb file.
+We train the model on a single Tesla P100 GPU using kaggle kernel and managed to get a 91% accuracy on the test dataset on 8 epochs. We implement an automated model saving that can be used later to reproduce the model performance. The instructions are included in the [Updated] Stanford_Car_ResNet50.ipynb file.
